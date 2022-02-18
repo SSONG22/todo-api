@@ -24,7 +24,7 @@ public class TodoService {
 
     private final TodoRepository todoRepository;
 
-    @Value("${todoUrl}: http://localhost:8080/todos/")
+    @Value("${todoUrl ?:http://localhost:8080/todos/}")
     private String baseUrl;
 
     @Transactional(readOnly = true)
