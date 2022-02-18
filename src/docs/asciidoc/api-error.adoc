@@ -1,0 +1,15 @@
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+== RESPONSE; Not Authorized
+include::{snippets}/todo/create/error/http-response.adoc[]
+
+== RESPONSE; Bad Request
+include::{snippets}/todo/list-todo/error/400/http-response.adoc[]
+
+== RESPONSE; Not Found
+include::{snippets}/todo/get-todo/error/404/http-response.adoc[]
+
+== RESPONSE; Server Error
+include::{snippets}/todo/get-list/error/500/http-response.adoc[]

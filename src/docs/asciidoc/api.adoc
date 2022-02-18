@@ -1,0 +1,49 @@
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+== Get Todo
+==  REQUEST
+include::{snippets}/todo/get-todo/http-request.adoc[]
+include::{snippets}/todo/get-todo/curl-request.adoc[]
+
+== RESPONSE
+include::{snippets}/todo/get-todo/http-response.adoc[]
+
+== Update Todo
+== REQUEST
+
+include::{snippets}/todo/update/http-request.adoc[]
+
+== RESPONSE
+
+include::{snippets}/todo/update/http-response.adoc[]
+
+
+== Delete Todo
+== REQUEST
+
+include::{snippets}/todo/delete/http-request.adoc[]
+
+== RESPONSE
+
+include::{snippets}/todo/delete/http-response.adoc[]
+
+
+== Create Todo
+== REQUEST
+
+include::{snippets}/todo/create/http-request.adoc[]
+
+== RESPONSE
+
+include::{snippets}/todo/create/http-response.adoc[]
+
+== List Todo
+== REQUEST
+
+include::{snippets}/todo/get-list/http-request.adoc[]
+
+== RESPONSE
+
+include::{snippets}/todo/get-list/http-response.adoc[]
